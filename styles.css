@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	background-image: repeating-radial-gradient(chocolate, black);
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	color: rgb(103, 150, 150);
+	font-size: 1.5em;
+    line-height: 1.6;
+}
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+	height: 40vh;
+	width: 40vw;
+	margin: auto;
+	background-color: hsl(0, 6%, 13%);
+	border-radius: 1rem;
+    padding: 1rem;
+}
+
+h1,p{
+    padding:0.5rem;
+}
